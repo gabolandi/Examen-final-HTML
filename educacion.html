@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Landinez">
+    <meta name="description" content="Formato de curriculum vitae digital">
+    <meta name="keywords" content="cv, hoja de vida, curriculum vitae, hv">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Educación</title>
+</head>
+<body>
+    <header>
+        <svg  width="150px" height="150px" viewbox="0 0 100 100">
+            <image id="cv" width="100%" height="100%" xlink:href="images/logo_GL.svg"></image>
+        </svg>
+        <h1>Curriculum Vitae</h1>
+        <h2>Gabriel Landinez Caballero</h2>
+        <h3>Fecha de nacimiento: 10 - Diciembre - 1989</h3>
+        <h3>Lugar de nacimiento: Cartagena, Bolívar</h3>
+    </header>
+
+    <nav>
+        <a href="inicio.html">Inicio |</a>
+        <a href="experiencia.html">Experiencia</a>
+    </nav>
+
+    <section>
+        <br>
+        <table border="1px"  cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Año</th>
+                    <th>Nivel educativo</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MBA en Dirección y Administración de empresas</td>
+                    <td>2019</td>
+                    <td>Postgrado</td>
+                    <td>U. Europea Miguel de cervantes</td>
+                    <td>España</td>
+                    <td>Culminado</td>
+                </tr>
+                <tr>
+                    <td>Ingeniero Industrial</td>
+                    <td>2015</td>
+                    <td>Pregrado</td>
+                    <td>U. Tecnológica de Bolívar</td>
+                    <td>Colombia</td>
+                    <td>Culminado</td>
+                </tr>
+                <tr>
+                    <td>Gestión Moderna de la Producción</td>
+                    <td>2013</td>
+                    <td>Diplomado</td>
+                    <td>U. Tecnológica de Bolívar </td>
+                    <td>Colombia</td>
+                    <td>Culminado</td>
+                </tr>
+                <tr>
+                    <td>Bachiller Académico</td>
+                    <td>2005</td>
+                    <td>Bachillerato</td>
+                    <td>Colegio de la Salle</td>
+                    <td>Colombia</td>
+                    <td>Culminado</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+    </section>
+    <section>
+        <form action="" autocomplete="on" name="new_education">
+            <fieldset>
+                <legend> <h4>Agregar estudios</h3></legend> 
+                    <label for="edu_title">Título:</label>
+                    <br>
+                    <input type="name" placeholder="Ej:Ingeniero de Sistemas" id="edu_title" autofocus />
+                    <br>
+                    <label id="label" for="year">Año:</label>
+                    <br>
+                    <select name="year" required>
+                        <option value="0">Seleccionar año</option>
+                        <option value="0">2022</option>
+                        <option value="0">2021</option>
+                        <option value="0">2020</option>
+                        <option value="0">2019</option>
+                        <option value="0">2018</option>
+                        <option value="0">2017</option>
+                        <option value="0">2016</option>
+                        <option value="0">2015</option>
+                        <option value="0">2014</option>
+                        <option value="0">2013</option>
+                        <option value="0">2012</option>
+                        <option value="0">2011</option>
+                        <option value="0">2010</option>
+                        <option value="0">2009</option>
+                        <option value="0">2008</option>
+                        <option value="0">2007</option>
+                        <option value="0">2006</option>
+                        <option value="0">2005</option> 
+                    </select>
+                    <br>
+                    
+                    <label for="grade">Nivel Educativo:</label> <br>
+                    <input type="name" placeholder="Ej:Postgrado" id="grade" autofocus />
+                    <br>
+                    <label for="institution">Institución:</label> 
+                    <br>
+                    <input type="name" placeholder="Ej:U. de los Andes" id="institution" />
+                    <br>
+                    <label for="ubication">Lugar</label>
+                    <br>
+                    <textarea name="lugar" rows="3" cols="18" placeholder="Ej: Colombia"></textarea>
+                    <br>
+                    <label for="status">Estado:</label>
+                    <br>
+                    <select name="status" id="status">
+                        <option value="0">Seleccionar estado:</option>
+                        <option value="0">En curso</option>
+                        <option value="">Finalizado</option>
+                    </select>
+
+            </fieldset>
+            <br>
+            <button>Agregar</button>
+        </form>
+    </section>
+    <br>
+    <a href="#cv">Ir arriba</a>
+    <br>
+    <footer>
+        <br>
+        <a href="mailto:gabriellandinez@gmail.com" target="blank">Contáctame |</a>
+        <a href="http://instagram.com/gabolandi" target="blank">Instagram |</a>
+        <a href="http://www.linkedin.com/in/gabriellandinez" target="blank">LinkedIn</a>
+        <br>
+        <p>Los datos aquí registrados son reales y pueden ser comprobados y verificados. </p>
+
+    </footer>
+
+</body>
+</html>
