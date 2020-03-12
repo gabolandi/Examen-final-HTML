@@ -1,10 +1,87 @@
 body {font-family: Arial, sans-serif; }
 
+.header {
+    background-color: #f1f1f1;
+    padding:5px;
+    text-align: center;
+    }
 
 form {
     margin:10px; 
     padding: 0 5px;
     background: #F5F5F5;
     width: 200px;
-}
+    }
 
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0px;
+	overflow: hidden;
+	background-color: #9ca0a6;
+	}
+
+.menu li {
+    float: left;
+    }
+
+.menu li a {
+    display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+.menu li a.activa {
+    background-color: #111;
+    color: white;
+	}
+
+
+.menu li a:hover:not(.activa) {
+	background-color: #111;
+	}
+
+.column {
+    float: left;
+    padding: 15px;
+    }
+
+.column.side {
+    float: left;
+    width: 250px;
+    padding: 15px; 
+    }
+
+.column.middle {
+    float: left;
+    width: 600px;
+    padding: 15px;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
+
+.tabla_edu {
+    border-collapse: collapse;
+    width: 50%;
+    }
+
+
+
+.tabla_edu, td, th {
+    border: 1px solid black;
+    height: 40px;
+    }
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    }

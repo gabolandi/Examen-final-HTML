@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Gabriel Landinez">
-    <meta name="description" content="Formato de curriculum vitae digital">
-    <meta name="keywords" content="cv, hoja de vida, curriculum vitae, hv">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-    <title>Mi CV Digital</title>
-</head>
-<body>
-    <header>
-        <svg width="150px" height="150px" viewbox="0 0 100 100">
-            <image id="cv" width="100%" height="100%" xlink:href="images/logo_GL.svg"></image>
-        </svg>
-        <h1>Curriculum Vitae</h1>
-        <h2>Gabriel Landinez Caballero</h2>
-        <h3>Fecha de nacimiento: 10 - Diciembre - 1989</h3>
-        <h3>Lugar de nacimiento: Cartagena, Bolívar</h3>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Gabriel Landinez">
+        <meta name="description" content="Formato de curriculum vitae digital">
+        <meta name="keywords" content="cv, hoja de vida, curriculum vitae, hv">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <title>Mi CV Digital</title>
+    </head>
+    <body>
+        <header class="header">
+            <svg width="150px" height="150px" viewbox="0 0 100 100">
+                <image id="cv" width="100%" height="100%" xlink:href="images/logo_GL.svg"></image>
+            </svg>
+            <h1>Curriculum Vitae</h1>
+            <h2>Gabriel Landinez Caballero</h2>
+            <h3>Fecha de nacimiento: 10 - Diciembre - 1989</h3>
+            <h3>Lugar de nacimiento: Cartagena, Bolívar</h3>
+        </header>
 
-    <nav>
-        <a href="educacion.html">Educación |</a>
-        <a href="experiencia.html">Experiencia</a>
-    </nav>
+        <nav>
+            <ul class="menu">
+                <li><a class="activa" href="Inicio.html"><strong>Inicio</strong> </a></li>
+                <li><a href="educacion.html">Educación </a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+        </nav>
 
-    <section>
-        <br>
-        <h2>Información personal</h2>
-           
-            <img src="images/foto_cv.jpeg" alt="foto_cv" height="280">
-
-            <p>Visionario, emprendedor, dedicado a aprender algo nuevo todos los días. <br> 
-                Comprometido con ayudar a otras personas. Aprovecho los avances informáticos para agregar valor a mi vida personal y laboral. <br><br>
-                <strong>Ingeniero Industrial</strong> de profesión y <strong>Master of Business Administration</strong>,  con amplia experiencia comercial y administrativa, experto en control interno y la gestión integral de riesgos corporativos. <br>
-                10 años de experiencia en el sector turístico, de consumo masivo de alimentos y oil&gas.
-            </p>
+        <section class="row">
+            <br>
+            <h2>Información personal</h2>
+                <section class="column side"> 
+                    <img src="images/foto_cv.jpeg" alt="foto_cv" height="300">
+                </section> 
+                <section class="column middle">
+                    <p>Visionario, emprendedor, dedicado a aprender algo nuevo todos los días. <br> 
+                        Comprometido con ayudar a otras personas. Aprovecho los avances informáticos para agregar valor a mi vida personal y laboral. <br><br>
+                        <strong>Ingeniero Industrial</strong> de profesión y <strong>Master of Business Administration</strong>,  con amplia experiencia comercial y administrativa, experto en control interno y la gestión integral de riesgos corporativos. <br>
+                        10 años de experiencia en el sector turístico, de consumo masivo de alimentos y oil&gas.
+                    </p>       
             
-                <h4>Mis idiomas</h4>
-            
-            <ul>
-                <li>Ingles.............Avanzado</li>
-                <li>Español..........Avanzado</li>
-                <li>Alemán..........Básico</li>
-            </ul>
-    </section>
-
-    <a href="#cv">Ir arriba</a>
-
-
-    <footer>
-        <br>
-        <a href="mailto:gabriellandinez@gmail.com" target="blank">Contáctame |</a>
-        <a href="http://instagram.com/gabolandi" target="blank">Instagram |</a>
-        <a href="http://www.linkedin.com/in/gabriellandinez" target="blank">LinkedIn</a>
-        <br>
-        <p>Los datos aquí registrados son reales y pueden ser comprobados y verificados. </p>
-    </footer>
-</body>
+                    <h4>Mis idiomas</h4> 
+                        <ul>
+                            <li>Ingles.............Avanzado</li>
+                            <li>Español..........Avanzado</li>
+                            <li>Alemán..........Básico</li>
+                        </ul>
+                </section>
+        </section>
+        
+        <footer class="footer">
+            <a href="#cv">Ir arriba</a>
+            <br>
+            <a href="mailto:gabriellandinez@gmail.com" target="blank">Contáctame |</a>
+            <a href="http://instagram.com/gabolandi" target="blank">Instagram |</a>
+            <a href="http://www.linkedin.com/in/gabriellandinez" target="blank">LinkedIn</a>
+            <br>
+            <p>Los datos aquí registrados son reales y pueden ser comprobados y verificados. </p>
+        </footer>
+    </body>
 </html>
