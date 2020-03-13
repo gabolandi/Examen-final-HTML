@@ -1,4 +1,5 @@
-body {font-family: Arial, sans-serif; }
+body {font-family: Arial, sans-serif;
+}
 
 .header {
     background-color: #f1f1f1;
@@ -38,7 +39,7 @@ form {
 	}
 
 .menu li a.activa {
-    background-color: #111;
+    background-color: rgba(18, 18, 18, 0.71);
     color: white;
 	}
 
